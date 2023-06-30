@@ -234,3 +234,10 @@ document.querySelector('#header').innerHTML = message
      const sequence = input.trim().toLowerCase();
      const searchResult = searchSequenceInDict(dic, sequence);
      console.log(searchResult);
+message = searchResult // Try edit me
+
+// Update header text
+document.querySelector('#header').innerHTML = message
+
+// Log to console
+console.log(message)

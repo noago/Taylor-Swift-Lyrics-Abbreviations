@@ -41,6 +41,7 @@ if __name__ == '__main__':
     filename = 'songs.csv'  # Replace with your CSV file path
     result = read_csv_lines(filename)
     res = extract_first_letters(result)
-    print("Please enter the sequence:")
-    inp = input()
-    print(search_sequence_in_dict(res, inp))
+    while (True):
+        print("Please enter the sequence:")
+        inp = input()
+        print(search_sequence_in_dict(res, inp))

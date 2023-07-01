@@ -36,9 +36,8 @@ def extract_first_letters(lines_dict):
     return result_dict
 
 
-# Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    filename = 'songs.csv'  # Replace with your CSV file path
+    filename = 'songs.csv' 
     result = read_csv_lines(filename)
     res = extract_first_letters(result)
     while (True):
